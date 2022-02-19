@@ -1,0 +1,12 @@
+INPUT COMMANDS:
+docker container run -dit devopsdockeruh/simple-web-service:ubuntu
+docker container exec -it b1 bash
+tail -f ./text.log
+
+OUTPUT:
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2022-02-10 09:27:40 +0000 UTC
+2022-02-10 09:27:42 +0000 UTC
+2022-02-10 09:27:44 +0000 UTC
+2022-02-10 09:27:46 +0000 UTC
+2022-02-10 09:27:48 +0000 UTC
